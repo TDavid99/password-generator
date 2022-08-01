@@ -5,6 +5,9 @@ var lettersNumbers = {
   numeric: "1,2,3,4,5,6,7,8,9,0",
   specialCharacters: "`!@#$%^&*()_+?/.{}",
 }
+var upperConfirm = window.confirm("would you like uppercase?");
+  var numberConfirm = window.confirm("would you like numbers?");
+  var specialConfirm = window.confirm("would you like special characters?");
 
 function generatePassword() {
   var passwordLength = window.prompt("choose a length of your password between 8 to 128 characters");
